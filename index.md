@@ -1,37 +1,119 @@
-## Welcome to GitHub Pages
+<!DOCTYPE HTML>
 
-You can use the [editor on GitHub](https://github.com/HabariDev/Habari/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+	<head>
+		<title>Twitter Sentiment Analyzer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Habari</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="generic.html">About Project</a>
+						
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
 
-### Markdown
+		<!-- Banner -->
+			<section id="banner">
+				<h1>Welcome to Habari</h1>
+				<p>A Sentiment Analysing Artificial Intelligence </p>
+			</section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<div class="inner">
+					<div class="flex flex-3">
+						<article>
+							<header>
+								<h3>Query Tweets</h3>
+								<form method="post" action="#">
+									<div class="row uniform">
+										<div class="9u 12u$(small)">
+											<input type="text" name="query" id="query" value="" placeholder="Query" />
+										</div><br>
+										<div class="6u$ 12u$(small)">
+											<input type="submit" value="Go" class="fit" />
 
-```markdown
-Syntax highlighted code block
+										</div>
+									</div>
+								</form>
+							</header>
+							
+							
+						</article>
+						<article>
+							<header>
+								<h3>Number of tweets</h3>
+							</header>
+							
+							<footer>
+								<form method="post" action="#">
+									<div class="row uniform">
+										<div class="9u 12u$(small)">
+											<input type="text" name="query" id="query" value="" placeholder="Number of tweets" />
+										</div><br>
+										<div class="6u$ 12u$(small)">
+											<input type="submit" value="Go" class="fit" />
+										</div>
+									</div>
+								</form>
+							</footer>
+						</article>
+						<article>
+							<header>
+								<h3>Specific Sentence</h3>
+							</header>
+							
+							<footer>
+								<form method="post" action="#">
+									<div class="row uniform">
+										<div class="9u 12u$(small)">
+											<input type="text" name="query" id="query" value="" placeholder="Sentence" />
+										</div><br>
+										<div class="6u$ 12u$(large)">
+											<input type="submit" value="Go" class="fit" />
+										</div>
+									</div>
+								</form>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
 
-# Header 1
-## Header 2
-### Header 3
+		
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright">
+							&copy; Kudzanai Siame In Partial Fulfilment for Phase 1 Final Year Project. 
+						</div>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
 
-- Bulleted
-- List
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HabariDev/Habari/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	</body>
+</html>
